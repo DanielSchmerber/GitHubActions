@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-    res.send(complexFunction("Hello ", "From Express"))
+    res.send(complexFunction("Hello ", "from Express"))
 })
 
 function complexFunction(a,b){
