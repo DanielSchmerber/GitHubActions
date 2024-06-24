@@ -1,4 +1,7 @@
-Demo Applikation für DevOps
-Das projekt zeigt einen GitHub Actions workflow für das automatische deployen eines NodeJS Servers in eine azure WebAPP
-Die Webapp läuft unter der url 
-danielschmerberdemoapp.azurewebsites.net
+Demo Applikation für DevOps.
+
+Das Projekt zeigt einen GitHub Actions Workflow für das automatische Deployen eines NodeJS Servers in eine Azure WebAPP.
+
+Die Webapp läuft unter der URL:
+
+[danielschmerberdemoapp.azurewebsites.net](https://danielschmerberdemoapp.azurewebsites.net)
