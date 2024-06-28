@@ -5,6 +5,13 @@ app.get('/', function (req, res) {
     res.send(complexFunction("Hello ", "from Express"))
 })
 
+
+//Insecure Endpoint, njsscan will detect this as a vulnerability
+app.get('/insecure', function (req, res) {
+    //XSS payload could be executed here
+    res.send(req.query)
+})
+
 function complexFunction(a,b){
     return a+b
 }
