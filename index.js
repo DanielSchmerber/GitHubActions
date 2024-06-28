@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 //Insecure Endpoint, njsscan will detect this as a vulnerability
 app.get('/insecure', function (req, res) {
     //XSS payload could be executed here
-    res.send(req.query)
+    res.send("You searched for "+req.query)
 })
 
 function complexFunction(a,b){
